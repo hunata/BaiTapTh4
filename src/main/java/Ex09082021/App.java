@@ -21,7 +21,7 @@ public class App {
         int tgt = tinhGiaiThua(num2);
         System.out.println("Giai thừa= " + tgt);
 
-//      Bai 2E - test -test
+//      Bai 2E
         int num3 = inputNum();
         int sgt = sumGiaiThua(num3);
         System.out.println("Tổng Giai thừa= " + sgt);
