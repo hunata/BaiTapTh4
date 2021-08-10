@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+
         // Bai 1A
         int num = inputNum();
         if (isDoiXung(num)) {
             System.out.println("Số này là số đối xứng");
         } else System.out.println("Số này không đối xứng");
+
         // Bài 1B
         if (isChinhPhuong(num)) {
             System.out.println("Đây là số chính phương");
@@ -23,6 +25,7 @@ public class App {
         int num3 = inputNum();
         int sgt = sumGiaiThua(num3);
         System.out.println("Tổng Giai thừa= " + sgt);
+
         // bài 4
         int num1 = inputNum();
         if (num1 > 0 && num1 < 50) {
@@ -32,7 +35,6 @@ public class App {
         // bài 5
         int x = nghichDaoNum(num);
         System.out.println("Số nghịch đảo là: " + x);
-
 
     }
 
